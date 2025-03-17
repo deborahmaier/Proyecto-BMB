@@ -1,10 +1,10 @@
 # Guía de Instalación y Ejecución - Proyecto-BMB
 
-Esta guía te ayudará a instalar y ejecutar el proyecto de Calendario de Eventos desde cero.
+Esta guía proporciona los pasos para poder instalar y ejecutar el Calendario de Eventos desde cero.
 
 ## Requisitos Previos
 
-Asegúrate de tener instalado:
+Antes de comenzar, se debe tener instalado:
 
 - [Node.js](https://nodejs.org/) (versión 18 o superior)
 - [npm](https://www.npmjs.com/) (normalmente viene con Node.js)
@@ -14,7 +14,7 @@ Asegúrate de tener instalado:
 
 ### 1. Clonar el Repositorio
 
-Abre una terminal y ejecuta el siguiente comando:
+Abra una terminal y ejecute el siguiente comando:
 
 ```bash
 git clone https://github.com/deborahmaier/Proyecto-BMB.git
@@ -23,7 +23,7 @@ cd Proyecto-BMB
 
 ### 2. Instalar Dependencias del Frontend
 
-Desde la carpeta raíz del proyecto, ejecuta:
+Desde la carpeta raíz del proyecto, ejecute:
 
 ```bash
 npm install
@@ -31,7 +31,7 @@ npm install
 
 ### 3. Instalar Dependencias del Backend
 
-Navega a la carpeta del backend e instala sus dependencias:
+Navegue a la carpeta del backend e instale sus dependencias:
 
 ```bash
 cd backend
@@ -46,32 +46,32 @@ cd ..
 
 ### 1. Iniciar el Servidor Backend
 
-Abre una terminal en la carpeta del proyecto y ejecuta:
+Abra una terminal en la carpeta del proyecto y ejecute:
 
 ```bash
 cd backend
 node server.js
 ```
 
-Deberías ver un mensaje indicando que el servidor está escuchando en http://localhost:5000 y que se ha conectado correctamente a la base de datos SQLite.
+Debe ver un mensaje indicando que el servidor está escuchando en http://localhost:5000 y que se ha conectado correctamente a la base de datos SQLite.
 
 ### 2. Iniciar la Aplicación Frontend
 
-Sin cerrar la terminal anterior, abre otra terminal en la carpeta raíz del proyecto y ejecuta:
+Sin cerrar la terminal anterior, abra otra terminal en la carpeta raíz del proyecto y ejecute:
 
 ```bash
 npm run dev
 ```
 
-Este comando iniciará la aplicación de React con Vite. Verás un mensaje con la URL donde está ejecutándose la aplicación, normalmente http://localhost:5173.
+Este comando iniciará la aplicación de React con Vite. Vers un mensaje con la URL donde está ejecutándose la aplicación, normalmente http://localhost:5173.
 
 ### 3. Acceder a la Aplicación
 
-Abre tu navegador web y navega a la URL mostrada en la terminal (por defecto http://localhost:5173).
+Abra su navegador web y navegue a la URL mostrada en la terminal (por defecto http://localhost:5173).
 
 ## Funcionalidades Principales
 
-La aplicación de Calendario de Eventos te permite:
+La aplicación de Calendario de Eventos le permitirá:
 
 - Ver eventos en formato de calendario mensual, semanal o diario
 - Agregar nuevos eventos
