@@ -1,0 +1,40 @@
+{
+  "events": [
+    {
+      "id": "f5b8",
+      "nombre": "d",
+      "fecha": "2025-03-17",
+      "hora_inicio": "09:00",
+      "hora_fin": "10:00",
+      "lugar": "fds",
+      "tipo_actividad": "fds",
+      "empresa": "sdf",
+      "disertantes": "sdf",
+      "descripcion": "sdf"
+    },
+    {
+      "id": "724a",
+      "nombre": "fsdfsfs",
+      "fecha": "2025-04-01",
+      "hora_inicio": "09:00",
+      "hora_fin": "10:00",
+      "lugar": "fsdfsdf",
+      "tipo_actividad": "sdfsfs",
+      "empresa": "dfsdfs",
+      "disertantes": "dfsfsdf",
+      "descripcion": "sdfsd"
+    },
+    {
+      "id": "912b",
+      "nombre": "sdfsd",
+      "fecha": "2025-03-17",
+      "hora_inicio": "09:00",
+      "hora_fin": "10:00",
+      "lugar": "sdf",
+      "tipo_actividad": "sdf",
+      "empresa": "sfd",
+      "disertantes": "sdfs",
+      "descripcion": "fsdf"
+    }
+  ]
+}
